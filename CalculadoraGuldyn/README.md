@@ -1,18 +1,88 @@
-## Getting Started
+# Calculadora Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Una calculadora simple desarrollada en Java con interfaz gráfica usando Swing.
 
-## Folder Structure
+## Características
 
-The workspace contains two folders by default, where:
+- ✅ Suma
+- ✅ Resta
+- ✅ Multiplicación
+- ✅ División (con validación de división por cero)
+- ✅ Interfaz gráfica intuitiva
+- ✅ Función de limpiar campos
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Estructura del Proyecto
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+```
+src/
+├── App.java                     # Clase principal
+├── mundo/
+│   └── Calculadora.java         # Lógica de operaciones matemáticas
+└── interfaz/
+    ├── InterfazCalculadora.java # Ventana principal
+    ├── PanelDatos.java          # Panel de entrada de datos
+    ├── PanelBotones.java        # Panel de botones de operaciones
+    └── PanelResultados.java     # Panel de resultados
+```
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Requisitos
 
-## Dependency Management
+- Java 8 o superior
+- JDK instalado
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Compilación y Ejecución
+
+### Opción 1: Desde línea de comandos
+
+```bash
+# Compilar
+javac -d . src/App.java src/mundo/*.java src/interfaz/*.java
+
+# Ejecutar
+java App
+```
+
+### Opción 2: Visual Studio Code
+
+1. Asegúrate de tener instalada la extensión "Extension Pack for Java"
+2. Abre el proyecto en VS Code
+3. Presiona `F5` o usa `Run > Start Debugging`
+
+## Uso
+
+1. Ingresa el primer número en el campo "Número 1"
+2. Ingresa el segundo número en el campo "Número 2"
+3. Selecciona la operación deseada (Sumar, Restar, Multiplicar, Dividir)
+4. El resultado aparecerá en el campo "Resultado"
+5. Usa el botón "Limpiar" para borrar todos los campos
+
+## Capturas de Pantalla
+
+![Calculadora](screenshot.png)
+
+## Características Técnicas
+
+- **Patrón de diseño**: Separación de responsabilidades (lógica de negocio vs interfaz)
+- **Manejo de excepciones**: Validación de división por cero
+- **Interfaz**: Swing con GridLayout y BorderLayout
+- **Eventos**: ActionListener para manejo de botones
+
+## Contribuciones
+
+Las contribuciones son bienvenidas. Por favor:
+
+1. Fork el proyecto
+2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
+3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
+4. Push a la rama (`git push origin feature/AmazingFeature`)
+5. Abre un Pull Request
+
+## Licencia
+
+Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
+
+## Autor
+
+Tu nombre - [tu-email@ejemplo.com](mailto:tu-email@ejemplo.com)
+
+Enlace del proyecto: [https://github.com/tu-usuario/calculadora-java](https://github.com/tu-usuario/calculadora-java)
