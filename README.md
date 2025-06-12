@@ -63,10 +63,6 @@ java App
 - **Interfaz**: Swing con GridLayout y BorderLayout
 - **Eventos**: ActionListener para manejo de botones
 
-## Licencia
-
-Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
-
 ## Autor
 
 Johan David Guillen Becerra
