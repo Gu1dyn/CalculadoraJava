@@ -67,22 +67,8 @@ java App
 - **Interfaz**: Swing con GridLayout y BorderLayout
 - **Eventos**: ActionListener para manejo de botones
 
-## Contribuciones
-
-Las contribuciones son bienvenidas. Por favor:
-
-1. Fork el proyecto
-2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
-3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
-4. Push a la rama (`git push origin feature/AmazingFeature`)
-5. Abre un Pull Request
-
-## Licencia
-
-Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
-
 ## Autor
 
-Tu nombre - [tu-email@ejemplo.com](mailto:tu-email@ejemplo.com)
+Johan David Guillen Becerra
 
-Enlace del proyecto: [https://github.com/tu-usuario/calculadora-java](https://github.com/tu-usuario/calculadora-java)
+Enlace del proyecto: (https://github.com/Gu1dyn/CalculadoraJava)
