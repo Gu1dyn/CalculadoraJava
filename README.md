@@ -58,7 +58,7 @@ java App
 
 ## 🎨 Capturas de Pantalla
 
-![Calculadora](image/CalculadoraJava.png)
+![CalculadoraJava](https://github.com/user-attachments/assets/8b95d289-8122-4a1b-8e5f-f3dcccc7c711)
 
 ## 🔗 Características Técnicas
 
