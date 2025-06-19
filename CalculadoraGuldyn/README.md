@@ -1,8 +1,8 @@
-# Calculadora Java
+# 📱 Calculadora Java
 
 Una calculadora simple desarrollada en Java con interfaz gráfica usando Swing.
 
-## Características
+## 📌 Características
 
 - ✅ Suma
 - ✅ Resta
@@ -11,7 +11,7 @@ Una calculadora simple desarrollada en Java con interfaz gráfica usando Swing.
 - ✅ Interfaz gráfica intuitiva
 - ✅ Función de limpiar campos
 
-## Estructura del Proyecto
+## 🛠️ Estructura del Proyecto
 
 ```
 src/
@@ -25,12 +25,12 @@ src/
     └── PanelResultados.java     # Panel de resultados
 ```
 
-## Requisitos
+## ⚙️ Requisitos
 
 - Java 8 o superior
 - JDK instalado
 
-## Compilación y Ejecución
+## 🗂️ Compilación y Ejecución
 
 ### Opción 1: Desde línea de comandos
 
@@ -56,18 +56,18 @@ java App
 4. El resultado aparecerá en el campo "Resultado"
 5. Usa el botón "Limpiar" para borrar todos los campos
 
-## Capturas de Pantalla
+## 🎨 Capturas de Pantalla
 
-![Calculadora](![image](https://github.com/user-attachments/assets/cdd35d63-61cd-413d-866b-0accaf6d8b5c))
+![Calculadora](image/CalculadoraJava.png)
 
-## Características Técnicas
+## 🔗 Características Técnicas
 
 - **Patrón de diseño**: Separación de responsabilidades (lógica de negocio vs interfaz)
 - **Manejo de excepciones**: Validación de división por cero
 - **Interfaz**: Swing con GridLayout y BorderLayout
 - **Eventos**: ActionListener para manejo de botones
 
-## Autor
+## 🪪 Autor
 
 Johan David Guillen Becerra
 
