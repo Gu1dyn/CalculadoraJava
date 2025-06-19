@@ -17,12 +17,12 @@ Una calculadora simple desarrollada en Java con interfaz gráfica usando Swing.
 src/
 ├── App.java                     # Clase principal
 ├── mundo/
-│   └── Calculadora.java         # Lógica de operaciones matemáticas
+│   └── Calculadora.java        # Lógica de operaciones matemáticas
 └── interfaz/
     ├── InterfazCalculadora.java # Ventana principal
-    ├── PanelDatos.java          # Panel de entrada de datos
-    ├── PanelBotones.java        # Panel de botones de operaciones
-    └── PanelResultados.java     # Panel de resultados
+    ├── PanelDatos.java         # Panel de entrada de datos
+    ├── PanelBotones.java       # Panel de botones de operaciones
+    └── PanelResultados.java    # Panel de resultados
 ```
 
 ## Requisitos
@@ -55,10 +55,6 @@ java App
 3. Selecciona la operación deseada (Sumar, Restar, Multiplicar, Dividir)
 4. El resultado aparecerá en el campo "Resultado"
 5. Usa el botón "Limpiar" para borrar todos los campos
-
-## Capturas de Pantalla
-
-![Calculadora](![image](https://github.com/user-attachments/assets/cdd35d63-61cd-413d-866b-0accaf6d8b5c))
 
 ## Características Técnicas
 
