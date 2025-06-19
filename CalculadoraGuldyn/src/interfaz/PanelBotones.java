@@ -18,11 +18,11 @@ import javax.swing.border.TitledBorder;
 public class PanelBotones extends JPanel implements ActionListener {
     private static final long serialVersionUID = 1L; //Identificador único para la serialización de la clase
 
-    private final JButton butSumar;                        //Botón para realizar suma
-    private final JButton butRestar;                       //Botón para realizar resta
-    private final JButton butMultiplicar;                  //Botón para realizar multiplicación
-    private final JButton butDividir;                      //Botón para realizar división
-    private final InterfazCalculadora interfazCalculadora; //Referencia a la ventana principal
+    private JButton butSumar;                        //Botón para realizar suma
+    private JButton butRestar;                       //Botón para realizar resta
+    private JButton butMultiplicar;                  //Botón para realizar multiplicación
+    private JButton butDividir;                      //Botón para realizar división
+    private InterfazCalculadora interfazCalculadora; //Referencia a la ventana principal
 
     /**Constructor que inicializa el panel con todos los botones de operaciones.
      * @param interfazCalculadora Referencia a la ventana principal para comunicación
@@ -30,13 +30,13 @@ public class PanelBotones extends JPanel implements ActionListener {
     public PanelBotones(InterfazCalculadora interfazCalculadora) {
         this.interfazCalculadora = interfazCalculadora; //Guardar la referencia a la interfaz principal para poder llamar sus métodos
         
-        // CONFIGURACIÓN DEL DISEÑO DEL PANEL
+        //CONFIGURACIÓN DEL DISEÑO DEL PANEL
         TitledBorder borde = BorderFactory.createTitledBorder("Opciones"); // Crear un borde con título para el panel
         setBorder(borde);                            // Aplicar el borde al panel actual
         borde.setTitleColor(Color.BLUE);            // Cambiar el color del título del borde a azul
         setLayout(new GridLayout(2, 2)); // Establecer un layout de grilla de 2 filas y 2 columnas
         
-        // INSTANCIAR - CREAR LOS OBJETOS BOTÓN  
+        //INSTANCIAR - CREAR LOS OBJETOS BOTÓN  
         butSumar = new JButton("Sumar");             //Crear botón para suma
         butSumar.addActionListener(this);                 //Registrar este panel como listener del botón suma
         butRestar = new JButton("Restar");           //Crear botón para resta

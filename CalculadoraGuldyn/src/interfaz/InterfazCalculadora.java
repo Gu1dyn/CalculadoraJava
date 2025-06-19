@@ -15,10 +15,10 @@ import mundo.Calculadora;
 public class InterfazCalculadora extends JFrame {
     private static final long serialVersionUID = 1L; //Identificador único para la serialización de la clase
     
-    private final PanelDatos panelDatos;           //Panel que contiene los campos de entrada
-    private final PanelBotones panelBotones;       //Panel que contiene los botones de operaciones
-    private final PanelResultados panelResultados; //Panel que muestra resultados y botón limpiar
-    private final Calculadora calculadora;         //Objeto que contiene la lógica matemática
+    private PanelDatos panelDatos;           //Panel que contiene los campos de entrada
+    private PanelBotones panelBotones;       //Panel que contiene los botones de operaciones
+    private PanelResultados panelResultados; //Panel que muestra resultados y botón limpiar
+    private Calculadora calculadora;         //Objeto que contiene la lógica matemática
     
     /**Constructor que inicializa y configura la ventana principal de la calculadora.
      * Establece las propiedades de la ventana, crea todos los paneles y los organiza.

@@ -17,10 +17,10 @@ import javax.swing.border.TitledBorder;
 public class PanelDatos extends JPanel {
     private static final long serialVersionUID = 1L; //Identificador único para la serialización de la clase
   
-    private final JLabel labNumero1;      //Etiqueta para el primer número
-    private final JTextField txtNumero1;  //Campo de texto para ingresar el primer número
-    private final JLabel labNumero2;      //Etiqueta para el segundo número
-    private final JTextField txtNumero2;  //Campo de texto para ingresar el segundo número
+    private JLabel labNumero1;      //Etiqueta para el primer número
+    private JTextField txtNumero1;  //Campo de texto para ingresar el primer número
+    private JLabel labNumero2;      //Etiqueta para el segundo número
+    private JTextField txtNumero2;  //Campo de texto para ingresar el segundo número
     
     /**Constructor que inicializa y configura todos los componentes del panel.
      * Establece el diseño, crea los objetos y los agrega al panel.
